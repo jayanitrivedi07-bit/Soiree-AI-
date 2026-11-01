@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><title>Create Event Brief — Soiree AI</title><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container": "#f0eded", "outline": "#867275", "background": "#fcf9f8", "on-secondary": "#ffffff", "on-surface-variant": "#534345", "surface-tint": "#934657", "inverse-surface": "#303030", "on-tertiary-fixed": "#281718", "surface-variant": "#e4e2e1", "on-primary-fixed-variant": "#762f40", "primary": "#3f0417", "secondary-fixed-dim": "#e6c184", "on-tertiary": "#ffffff", "surface": "#fcf9f8", "surface-dim": "#dcd9d9", "primary-fixed": "#ffd9de", "secondary-fixed": "#ffdea9", "secondary": "#765a26", "on-secondary-container": "#785c29", "outline-variant": "#d8c1c3", "tertiary-fixed": "#fbdbdb", "surface-bright": "#fcf9f8", "on-secondary-fixed-variant": "#5c4211", "on-surface": "#1b1c1c", "on-error": "#ffffff", "inverse-on-surface": "#f3f0f0", "on-primary": "#ffffff", "tertiary-fixed-dim": "#debfbf", "on-error-container": "#93000a", "inverse-primary": "#ffb2bf", "surface-container-lowest": "#ffffff", "on-tertiary-container": "af9393", "tertiary": "#2a1819", "on-secondary-fixed": "#271900", "surface-container-low": "#f6f3f2", "secondary-container": "#fed798", "on-primary-fixed": "#3d0316", "error-container": "#ffdad6", "on-primary-container": "#d97f91", "tertiary-container": "#402d2d", "surface-container-high": "#eae7e7", "error": "#ba1a1a", "primary-fixed-dim": "#ffb2bf", "on-tertiary-fixed-variant": "#574142", "surface-container-highest": "#e4e2e1", "on-background": "#1b1c1c", "primary-container": "#5b1a2b" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter-desktop": "2.5rem", "margin": "1.25rem", "margin-desktop": "4rem", "space-lg": "1.5rem", "space-2xl": "4rem", "gutter": "1.5rem", "space-md": "1rem", "margin-tablet": "2.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-sm": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "headline-xl": [ "Playfair Display" ], "headline-md": [ "Playfair Display" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Playfair Display" ], "label-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Playfair Display" ] }, "fontSize": { "headline-sm": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-xl": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-xl-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(91,26,43,0.05)]">
+  <div class="h-20 w-full px-gutter-desktop mx-auto flex items-center justify-between gap-space-md">
+    <div class="flex items-center gap-space-md shrink-0">
+      <img alt="Soirée AI Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ul51A9efJRqh_pIQJv61FMva77KdzBaQxf1SyMpHtXZb8bEpyavrZ1x3w85TkZrAlQ_rPah33x7_3EcSlgK7pJRA5JQk6droIbQ0hItimmtDiwvkuVQljLTbHAkoLaSW37wMSHGxQ5qLozCH26xW9sGpwU_hO5ECYWFpKZKFFAkyeukVnrd9_5WWreC2BGVM91Rtxe7k93BXTVLjSQGpzOry56MPSTaohOZUgtOZxdEg"/>
+      <a class="flex flex-col" href="../../index.html">
+        <span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none">Soirée AI</span>
+        <span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mt-1">Bespoke Celebration Studio</span>
+      </a>
+    </div>
+    <nav class="hidden xl:flex items-center gap-space-xs px-space-xs py-1 rounded-full bg-surface-container-low/70" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-full">
+      <a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-nav-page="dashboard.html" href="dashboard.html">Dashboard</a>
+      <a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-nav-page="create-event.html" href="create-event.html">Event Brief</a>
+      <a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-nav-page="budget.html" href="budget.html">Budget</a>
+      <a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-nav-page="timeline.html" href="timeline.html">Timeline</a>
+      <a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-nav-page="vendors.html" href="vendors.html">Vendors</a>
+      <a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-nav-page="ai-assistant.html" href="ai-assistant.html">AI Assistant</a>
+    </nav>
+    <div class="flex items-center gap-space-sm shrink-0">
+      <button id="mobile-menu-btn" aria-label="Open menu" class="xl:hidden w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high transition-colors mr-1" type="button">
+        <span class="material-symbols-outlined text-[24px]">menu</span>
+      </button>
+      <button aria-label="Search Celebrations" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button">
+        <span class="material-symbols-outlined text-[20px]">search</span>
+      </button>
+      <a class="hidden sm:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container/30 hover:bg-secondary-container/50 text-secondary transition-colors" href="ai-assistant.html">
+        <span class="material-symbols-outlined text-[18px] text-secondary">auto_awesome</span>
+        <span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Chat with AI</span>
+      </a>
+      <a class="hidden md:inline-flex items-center justify-center px-space-lg py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shadow-[0_4px_20px_rgba(91,26,43,0.2)] hover:shadow-[0_6px_24px_rgba(91,26,43,0.3)]" href="create-event.html">
+        Plan My Event
+      </a>
+      <div class="flex items-center gap-space-xs pl-space-xs">
+        <button aria-label="Notifications" class="relative w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button">
+          <span class="material-symbols-outlined text-[22px]">notifications</span>
+          <span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface"></span>
+        </button>
+        <a class="relative flex items-center p-0.5 rounded-full ring-1 ring-secondary/40 hover:ring-secondary transition-all" href="dashboard.html">
+          <img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsQcxoRX0fz_0KbH982djli-vJWFCeSAcnPumshsAah4GHXgfLesoh6n06Ykim5Jz5bezKr6mkvpducdksjP4yqf2-iA8hFvOOUG9kPKWT8nq05Xx1fvds53wJtl5dspbW2qj14PTWfKN2y3Hfts4VRgZiXEjwx8-Pmv0xNlwX--vPGC84_4lzXepeFM-lhuML2EJax8w9e2_eAW6ReCaIyx6aACbEHZ_H6-1RGtD1"/>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="hidden flex-col xl:hidden fixed top-20 left-0 right-0 z-40 bg-surface/95 backdrop-blur-xl shadow-lg border-t border-outline-variant px-gutter py-space-md gap-space-xs">
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="dashboard.html">Dashboard</a>
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="create-event.html">Event Brief</a>
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="budget.html">Budget</a>
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="timeline.html">Timeline</a>
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="vendors.html">Vendors</a>
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="ai-assistant.html">AI Assistant</a>
+  <div class="border-t border-outline-variant my-space-xs"></div>
+  <a class="px-space-md py-space-sm font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface rounded-lg hover:bg-surface-container transition-colors" href="../../index.html">Home</a>
+</div>
+<main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<div class="relative w-full max-w-7xl mx-auto px-margin md:px-margin-desktop py-space-xl">
+<div class="absolute -top-24 right-1/4 w-96 h-96 rounded-full bg-secondary-fixed/20 blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/3 -left-32 w-80 h-80 rounded-full bg-primary-fixed/20 blur-3xl pointer-events-none -z-10"></div>
+<!-- Editorial Header Block -->
+<header class="max-w-3xl mb-space-2xl">
+<div class="flex items-center gap-space-xs text-secondary mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest font-semibold">Atelier Synthesis Engine</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight mb-space-sm">Craft Your Event Brief</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+        Tell us your vision. In under two minutes, our AI concierge synthesizes your bespoke timeline, tailored sommelier pairings, and vetted artisan shortlists.
+      </p>
+</header>
+<!-- Multi-Step Stepper Progress Bar -->
+<nav aria-label="Brief Steps" class="w-full mb-space-2xl bg-surface-container-low p-space-md rounded-xl shadow-sm">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+<!-- Step 1 -->
+<div class="flex items-center gap-space-sm group cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Step 01</p>
+<p class="font-label-md text-label-md text-on-surface font-semibold truncate">Basics</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex items-center gap-space-sm group cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Step 02</p>
+<p class="font-label-md text-label-md text-on-surface font-semibold truncate">Scale &amp; Budget</p>
+</div>
+</div>
+<!-- Step 3 (Active) -->
+<div class="flex items-center gap-space-sm relative">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-label-md text-label-md font-bold shrink-0 shadow-md">
+            03
+          </div>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Active Phase</p>
+<p class="font-label-md text-label-md text-primary font-bold truncate">Aesthetic &amp; Mood</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex items-center gap-space-sm opacity-60">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-md text-label-md shrink-0">
+            04
+          </div>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Step 04</p>
+<p class="font-label-md text-label-md text-on-surface font-semibold truncate">Cultural Nuances</p>
+</div>
+</div>
+</div>
+<div class="w-full bg-surface-container-high h-1 rounded-full mt-space-md overflow-hidden">
+<div class="bg-gradient-to-r from-primary to-secondary h-full w-3/4 rounded-full transition-all duration-500"></div>
+</div>
+</nav>
+<!-- Main Atelier Multi-column Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Left Column: Primary Brief Specifications -->
+<div class="lg:col-span-8 flex flex-col gap-space-2xl">
+<!-- Section 1: Occasion Archetype -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary">Occasion Archetype</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Select One</span>
+</div>
+<div class="flex flex-wrap gap-space-xs" id="eventTypeContainer">
+<button class="event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-primary text-on-primary shadow-sm" data-type="Wedding" type="button">
+              Wedding
+            </button>
+<button class="event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-type="40th Birthday" type="button">
+              40th Birthday
+            </button>
+<button class="event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-type="Charity Gala" type="button">
+              Charity Gala
+            </button>
+<button class="event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-type="Autumn Soirée" type="button">
+              Autumn Soirée
+            </button>
+<button class="event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-type="Anniversary" type="button">
+              Anniversary
+            </button>
+</div>
+</section>
+<!-- Section 2: Scale, Calendar, & Budget -->
+<section class="bg-surface-container-low p-space-xl rounded-xl shadow-sm flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Date Selection -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold" for="eventDate">Celebration Date</label>
+<div class="relative flex items-center">
+<input class="w-full bg-surface-container-lowest px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-surface shadow-sm focus:outline-none" id="eventDate" type="date" value="2025-10-18"/>
+<span class="material-symbols-outlined absolute right-3 pointer-events-none text-secondary text-[20px]">calendar_month</span>
+</div>
+</div>
+<!-- Guest Count Luxury Stepper -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Anticipated Guests</label>
+<div class="flex items-center justify-between bg-surface-container-lowest px-space-md py-space-xs rounded-lg shadow-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-low text-primary hover:bg-surface-container-high flex items-center justify-center transition-colors" id="guestDec" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="guestCount">135</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant uppercase tracking-wider">Patrons</span>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container-low text-primary hover:bg-surface-container-high flex items-center justify-center transition-colors" id="guestInc" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Total Target Budget -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between flex-wrap gap-space-xs">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Allocated Budget Target</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Includes culinary curation, décor atelier, and live acts</p>
+</div>
+<div class="bg-surface-container-lowest px-space-lg py-space-xs rounded-full shadow-sm flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-semibold" id="budgetDisplay">$35,000</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">USD</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<input class="w-full accent-primary h-2 bg-surface-container-high rounded-full appearance-none cursor-pointer" id="budgetRange" max="150000" min="15000" step="2500" type="range" value="35000"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider px-1">
+<span>$15,000 (Intimate)</span>
+<span>$75,000 (Grand)</span>
+<span>$150,000+ (Imperial)</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Visual Mood & Aesthetic Cards -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary">Curated Atmosphere</h2>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">Mood Board Directive</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md" id="moodCardContainer">
+<!-- Mood Card 1 (Selected) -->
+<div class="mood-card relative group cursor-pointer rounded-xl overflow-hidden bg-primary-container text-on-primary transition-all shadow-md transform hover:-translate-y-1" data-mood="Burgundy &amp; Candlelight Romance">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Opulent candlelit dining room filled with deep crimson garden roses, polished crystal goblets, antique brass candelabras, and vintage mahogany long banquet table setting under soft ambient evening light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgx2YWQrHD3WOQUxsyB-m3wYtd-xNcas6K9-KBLJh-rJ3r7EZTvLR9qXJlwwuDHCMey4mnbFD1HLo9KEJp1YxdYaEXT8uW4r47O7S4BVxzPe_1NyQqeeUyEAxUTKSUakbA1btX9zDDaTvBfRtjnuou7tZ52X-RG6Ev9C59byNcg9LxC5fqas8TEaHCsgJamDhrItMTWtlOv3j4lUPjdc1f7dVinrmVKvIoz1O3Iyp4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-primary-container/40 to-transparent"></div>
+<div class="absolute top-3 right-3 w-7 h-7 rounded-full bg-secondary-container text-secondary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-widest font-semibold">Atmospheric</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary">Burgundy &amp; Candlelight Romance</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim line-clamp-2">Deep wine hues, warm beeswax illumination, dramatic floral cascades, and baroque velvet touches.</p>
+</div>
+</div>
+<!-- Mood Card 2 -->
+<div class="mood-card relative group cursor-pointer rounded-xl overflow-hidden bg-surface-container-low text-on-surface transition-all shadow-sm transform hover:-translate-y-1" data-mood="Modern Minimalist Vineyard">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Sunlit minimalist outdoor winery reception in Sonoma featuring pale oak tables, fine stemware, delicate olive branch runner, soft linen napkins, and rolling vineyard hills in the golden hour background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Tx2b8aHr7oPrxdPl8swPByvvJfKVGQ1_RoryZiTZU1X1AFuVZNsM2Kcx7deBPx86lYaolPIldQ5sBMIQsDEiuvSosRq0N8yuQNfPI83ZHoI7WQEVwG1ZxTE9ro8GdtuJteXaXm7zJkqLPJnk5S7WJnhXQc1aeNwpEb4H8t7XlaXHC6x1fULyS6I6SKab93LfBxaLZoxfKBIJypyYgoYbiXLjFPMTZec2TJPGjgmg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/30 to-transparent"></div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Clean Botanical</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Modern Minimalist Vineyard</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Crisp linen, architectural stone, subtle olive branches, and biodynamic natural pairings.</p>
+</div>
+</div>
+<!-- Mood Card 3 -->
+<div class="mood-card relative group cursor-pointer rounded-xl overflow-hidden bg-surface-container-low text-on-surface transition-all shadow-sm transform hover:-translate-y-1" data-mood="Gilded Parisian Chic">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="High-ceilinged Parisian salon with ornate gilded molding, crystal chandelier sparkle, white porcelain towers, vintage champagne coupes, and pastel ivory peony centerpieces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJBg7wVddvuyrm6m8T8Z9mdaqfBZj65oyGHOugkrA-Fna9kIOD439nvp9C1IdqQFeUA5vRYQINZUHNJcuxq8cDPzJlge00XeM2lWjv5DtZHNQG8HOq0mqioe8RAulx5ib25YDnHM3VjKQFyoMWP4USV01a2w4xPAMcylgg1V5q9JUKg92lE2_mnfIvPzWyjano-LDk8I19c992hoVujNfa4s8VVXJVXpckmISwpcf9"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/30 to-transparent"></div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Haute Couture</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Gilded Parisian Chic</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Haussmann moulding aesthetics, vintage French crystal, brushed gold flatware, and macaron towers.</p>
+</div>
+</div>
+<!-- Mood Card 4 -->
+<div class="mood-card relative group cursor-pointer rounded-xl overflow-hidden bg-surface-container-low text-on-surface transition-all shadow-sm transform hover:-translate-y-1" data-mood="Organic Tuscan Botanical">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Tuscan villa courtyard feast with rustic terracotta pavers, fragrant rosemary and citrus garlands, exposed ancient stonework, and warm bistro string lights at dusk." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0CuE5Hy9fJoiz82FMakmQsKcs4DZH5jafcphc3kz1xExjRkX5JAGX7HE-GTXXtTklhCKbC0c4tcFQOwiYbRY27wAddGKLAUAyQ2Cut0oQkfuRvZnizrMAIl575qJpBYRT4j8G2_l9afpiJb0JccRu1SkP3ZARuDcNWrLINs9DORwP9qHm7OsJm098Y-RCiAO3ziINR9r0Cxe34Lx09uvs7nCjlhFcEJvJ98NyljTe"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/30 to-transparent"></div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Rustic Opulence</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Organic Tuscan Botanical</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Terracotta pots, heirloom citrus garnishes, wild rosemary sprigs, and alfresco cypress breezes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Cultural Traditions & Culinary Preferences -->
+<section class="flex flex-col gap-space-md">
+<h2 class="font-headline-md text-headline-md text-primary">Traditions &amp; Culinary Curation</h2>
+<div class="flex flex-wrap gap-space-xs" id="tagContainer">
+<button class="culture-tag px-space-md py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-secondary-container text-secondary font-bold shadow-sm" data-tag="French Wine Pairing" type="button">
+              ✓ French Wine Pairing
+            </button>
+<button class="culture-tag px-space-md py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-secondary-container text-secondary font-bold shadow-sm" data-tag="Champagne Welcome" type="button">
+              ✓ Champagne Welcome
+            </button>
+<button class="culture-tag px-space-md py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-tag="Kosher-style" type="button">
+              Kosher-style
+            </button>
+<button class="culture-tag px-space-md py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-tag="Eco-conscious Zero Food Waste" type="button">
+              Eco-conscious Zero Food Waste
+            </button>
+<button class="culture-tag px-space-md py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-tag="Plant-Based Haute Cuisine" type="button">
+              Plant-Based Haute Cuisine
+            </button>
+<button class="culture-tag px-space-md py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface" data-tag="Midnight Digestif Salon" type="button">
+              Midnight Digestif Salon
+            </button>
+</div>
+</section>
+<!-- Section 5: Bespoke Must-Haves Freeform Directive -->
+<section class="flex flex-col gap-space-xs">
+<label class="font-headline-md text-headline-md text-primary" for="mustHaves">Bespoke Must-Haves &amp; Nuances</label>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-xs">Mention signature cocktails, preferred acoustic acts, floral varieties, or quiet surprise cues.</p>
+<div class="relative">
+<textarea class="w-full bg-surface-container-lowest p-space-md rounded-xl font-body-md text-body-md text-on-surface placeholder:text-outline shadow-sm focus:outline-none resize-none" id="mustHaves" placeholder="e.g., Live jazz quartet during cocktail hour, champagne tower during first toast, vintage sparkler send-off at midnight, no artificial fragrance in guest lounges..." rows="4"></textarea>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 text-secondary font-label-sm text-label-sm uppercase">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+<span>AI Assisted</span>
+</div>
+</div>
+</section>
+<!-- Responsive Action Bar -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-lg pb-space-2xl">
+<button class="w-full sm:w-auto px-space-lg py-space-sm rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wider hover:bg-surface-variant transition-colors flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+            Back to Details
+          </button>
+<button class="w-full sm:w-auto px-space-xl py-space-sm rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-space-xs group" id="generatePlanBtn" type="button">
+<span>Generate My Plan with AI</span>
+<span class="material-symbols-outlined text-secondary-fixed group-hover:rotate-12 transition-transform">auto_awesome</span>
+</button>
+</div>
+</div>
+<!-- Right Column: Live Executive AI Preview & Budget Distribution Widget -->
+<aside class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Live Synthesis Card -->
+<div class="sticky top-28 bg-surface-container-low p-space-lg rounded-xl shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<div class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Brief Synthesis</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Real-time</span>
+</div>
+<!-- Dynamic SVG Radial Budget Projection -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col items-center">
+<div class="relative w-44 h-44 flex items-center justify-center">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 100 100">
+<!-- Background Ring -->
+<circle class="text-surface-container-high" cx="50" cy="50" fill="none" r="40" stroke="currentColor" stroke-width="8"></circle>
+<!-- Culinary (45%) -->
+<circle class="text-primary" cx="50" cy="50" fill="none" r="40" stroke="currentColor" stroke-dasharray="251.2" stroke-dashoffset="138.16" stroke-width="8"></circle>
+<!-- Atelier & Decor (30%) -->
+<circle class="text-secondary" cx="50" cy="50" fill="none" r="40" stroke="currentColor" stroke-dasharray="251.2" stroke-dashoffset="175.84" stroke-width="8" style="transform: rotate(162deg); transform-origin: 50% 50%;"></circle>
+<!-- Entertainment & Concierge (25%) -->
+<circle class="text-on-primary-container" cx="50" cy="50" fill="none" r="40" stroke="currentColor" stroke-dasharray="251.2" stroke-dashoffset="188.4" stroke-width="8" style="transform: rotate(270deg); transform-origin: 50% 50%;"></circle>
+</svg>
+<div class="absolute flex flex-col items-center text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="widgetTotal">$35k</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Allocated</span>
+</div>
+</div>
+<!-- Ring Legend breakdown -->
+<div class="w-full grid grid-cols-3 gap-2 text-center pt-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-bold">45%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cellar &amp; Fare</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold">30%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Design &amp; Florals</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-primary-container font-bold">25%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Talent &amp; Crew</span>
+</div>
+</div>
+</div>
+<!-- Dynamic Brief Highlights Checklist -->
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface">
+<div class="flex justify-between py-1 bg-surface-container-lowest px-space-sm rounded">
+<span class="text-on-surface-variant">Archetype</span>
+<span class="font-semibold text-primary" id="summaryType">Wedding</span>
+</div>
+<div class="flex justify-between py-1 bg-surface-container-lowest px-space-sm rounded">
+<span class="text-on-surface-variant">Atmosphere</span>
+<span class="font-semibold text-primary truncate max-w-[150px]" id="summaryMood">Candlelight Romance</span>
+</div>
+<div class="flex justify-between py-1 bg-surface-container-lowest px-space-sm rounded">
+<span class="text-on-surface-variant">Guest Density</span>
+<span class="font-semibold text-primary"><span id="summaryGuests">135</span> Patrons</span>
+</div>
+<div class="flex justify-between py-1 bg-surface-container-lowest px-space-sm rounded">
+<span class="text-on-surface-variant">Per Guest Estimate</span>
+<span class="font-semibold text-primary" id="perGuestRate">$259 / guest</span>
+</div>
+</div>
+<!-- Concierge Dispatch Guarantee -->
+<div class="bg-primary/5 p-space-sm rounded-lg flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">verified_user</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-primary">8-Second Synthesis Guarantee</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Generates verified Michelin-level suppliers, minute-by-minute call sheets, and floral yield models.</p>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<script>
+    // Guest counter micro-interaction
+    const guestCountEl = document.getElementById('guestCount');
+    const guestIncBtn = document.getElementById('guestInc');
+    const guestDecBtn = document.getElementById('guestDec');
+    const summaryGuestsEl = document.getElementById('summaryGuests');
+    const budgetRange = document.getElementById('budgetRange');
+    const budgetDisplay = document.getElementById('budgetDisplay');
+    const widgetTotal = document.getElementById('widgetTotal');
+    const perGuestRateEl = document.getElementById('perGuestRate');
+
+    let guests = 135;
+    let budget = 35000;
+
+    function updateRatios() {
+      const perGuest = Math.round(budget / guests);
+      perGuestRateEl.textContent = `$${perGuest.toLocaleString()} / guest`;
+      summaryGuestsEl.textContent = guests;
+    }
+
+    guestIncBtn.addEventListener('click', () => {
+      guests += 5;
+      guestCountEl.textContent = guests;
+      updateRatios();
+    });
+
+    guestDecBtn.addEventListener('click', () => {
+      if (guests > 10) {
+        guests -= 5;
+        guestCountEl.textContent = guests;
+        updateRatios();
+      }
+    });
+
+    budgetRange.addEventListener('input', (e) => {
+      budget = parseInt(e.target.value);
+      budgetDisplay.textContent = `$${budget.toLocaleString()}`;
+      widgetTotal.textContent = `$${Math.round(budget / 1000)}k`;
+      updateRatios();
+    });
+
+    // Event type pills toggle
+    const eventPills = document.querySelectorAll('.event-pill');
+    const summaryTypeEl = document.getElementById('summaryType');
+
+    eventPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        eventPills.forEach(p => {
+          p.className = 'event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface';
+        });
+        pill.className = 'event-pill px-space-lg py-space-xs rounded-full font-label-md text-label-md tracking-wider uppercase transition-all bg-primary text-on-primary shadow-sm';
+        summaryTypeEl.textContent = pill.getAttribute('data-type');
+      });
+    });
+
+    // Mood cards selection
+    const moodCards = document.querySelectorAll('.mood-card');
+    const summaryMoodEl = document.getElementById('summaryMood');
+
+    moodCards.forEach(card => {
+      card.addEventListener('click', () => {
+        moodCards.forEach(c => {
+          c.className = 'mood-card relative group cursor-pointer rounded-xl overflow-hidden bg-surface-container-low text-on-surface transition-all shadow-sm transform hover:-translate-y-1';
+          const badge = c.querySelector('.absolute.top-3.right-3');
+          if (badge) badge.remove();
+          const pEl = c.querySelector('p');
+          if (pEl) pEl.className = 'font-body-sm text-body-sm text-on-surface-variant line-clamp-2';
+        });
+        card.className = 'mood-card relative group cursor-pointer rounded-xl overflow-hidden bg-primary-container text-on-primary transition-all shadow-md transform hover:-translate-y-1';
+        const imgContainer = card.querySelector('.relative.h-48');
+        const check = document.createElement('div');
+        check.className = 'absolute top-3 right-3 w-7 h-7 rounded-full bg-secondary-container text-secondary flex items-center justify-center shadow-md';
+        check.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span>';
+        imgContainer.appendChild(check);
+        const pEl = card.querySelector('p');
+        if (pEl) pEl.className = 'font-body-sm text-body-sm text-primary-fixed-dim line-clamp-2';
+        summaryMoodEl.textContent = card.getAttribute('data-mood');
+      });
+    });
+
+    // Dietary & cultural multi-tags toggle
+    const cultureTags = document.querySelectorAll('.culture-tag');
+    cultureTags.forEach(tag => {
+      tag.addEventListener('click', () => {
+        const isSelected = tag.classList.contains('bg-secondary-container');
+        if (isSelected) {
+          tag.classList.remove('bg-secondary-container', 'text-secondary', 'font-bold');
+          tag.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+          tag.textContent = tag.textContent.replace('✓ ', '');
+        } else {
+          tag.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+          tag.classList.add('bg-secondary-container', 'text-secondary', 'font-bold');
+          tag.textContent = `✓ ${tag.textContent.trim()}`;
+        }
+      });
+    });
+
+    // Generate CTA state micro-interaction
+    const generateBtn = document.getElementById('generatePlanBtn');
+    generateBtn.addEventListener('click', () => {
+      const origContent = generateBtn.innerHTML;
+      generateBtn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">autorenew</span><span>Synthesizing Atelier Plan...</span>';
+      generateBtn.disabled = true;
+      setTimeout(() => {
+        generateBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">done_all</span><span>Dossier Ready</span>';
+        setTimeout(() => {
+          generateBtn.innerHTML = origContent;
+          generateBtn.disabled = false;
+        }, 2000);
+      }, 1500);
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="w-full px-gutter-desktop mx-auto pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-2xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-secondary-fixed"><span class="material-symbols-outlined text-[18px]">wine_bar</span></div><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Soirée AI</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">An elevated generative intelligence suite for discerning celebrants, sommeliers, and private gala hosts crafting memories with quiet luxury.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Haute Concierge Verified</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Curated Events</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="weddings" href="#">Weddings</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="galas" href="#">Galas</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="birthdays" href="#">Birthdays</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-events" href="#">Community Events</a></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Intelligence</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="vendor-directory" href="#">Vendor Directory</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-concierge" href="#">AI Concierge</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="sommelier-cellar" href="#">Cellar &amp; Pairings</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="seating-atelier" href="#">Seating Atelier</a></div></div><div class="lg:col-span-4 flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Join the Inner Circle</span><p class="font-body-sm text-body-sm text-on-surface-variant">Receive private cellar vintage releases, salon invitations, and bespoke event styling monographs.</p><form class="flex flex-col sm:flex-row gap-space-xs w-full" onsubmit="return false;"><input class="flex-1 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none ring-1 ring-outline-variant focus:ring-secondary transition-all" placeholder="Enter your correspondence email" type="email"/><button class="px-space-md py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shrink-0" type="submit">Subscribe</button></form></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md bg-surface-container-high/40 px-space-md py-space-sm rounded-xl"><div class="flex items-center gap-space-md flex-wrap"><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge-contact" href="#">Private Office</a></div><p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">© 2025 Soirée AI Inc. Handcrafted for discerning hosts.</p></div></div></footer>
+<!-- Soiree AI Shared State & Navigation Modules -->
+<script src="../shared/state.js"></script>
+<script src="../shared/utils.js"></script>
+<script src="../shared/nav.js"></script>
+</body></html>

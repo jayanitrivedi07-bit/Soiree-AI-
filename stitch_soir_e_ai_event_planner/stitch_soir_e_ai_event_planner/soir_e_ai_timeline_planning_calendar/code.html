@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container": "#f0eded", "outline": "#867275", "background": "#fcf9f8", "on-secondary": "#ffffff", "on-surface-variant": "#534345", "surface-tint": "#934657", "inverse-surface": "#303030", "on-tertiary-fixed": "#281718", "surface-variant": "#e4e2e1", "on-primary-fixed-variant": "#762f40", "primary": "#3f0417", "secondary-fixed-dim": "#e6c184", "on-tertiary": "#ffffff", "surface": "#fcf9f8", "surface-dim": "#dcd9d9", "primary-fixed": "#ffd9de", "secondary-fixed": "#ffdea9", "secondary": "#765a26", "on-secondary-container": "#785c29", "outline-variant": "#d8c1c3", "tertiary-fixed": "#fbdbdb", "surface-bright": "#fcf9f8", "on-secondary-fixed-variant": "#5c4211", "on-surface": "#1b1c1c", "on-error": "#ffffff", "inverse-on-surface": "#f3f0f0", "on-primary": "#ffffff", "tertiary-fixed-dim": "#debfbf", "on-error-container": "#93000a", "inverse-primary": "#ffb2bf", "surface-container-lowest": "#ffffff", "on-tertiary-container": "af9393", "tertiary": "#2a1819", "on-secondary-fixed": "#271900", "surface-container-low": "#f6f3f2", "secondary-container": "#fed798", "on-primary-fixed": "#3d0316", "error-container": "#ffdad6", "on-primary-container": "#d97f91", "tertiary-container": "#402d2d", "surface-container-high": "#eae7e7", "error": "#ba1a1a", "primary-fixed-dim": "#ffb2bf", "on-tertiary-fixed-variant": "#574142", "surface-container-highest": "#e4e2e1", "on-background": "#1b1c1c", "primary-container": "#5b1a2b" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter-desktop": "2.5rem", "margin": "1.25rem", "margin-desktop": "4rem", "space-lg": "1.5rem", "space-2xl": "4rem", "gutter": "1.5rem", "space-md": "1rem", "margin-tablet": "2.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-sm": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "headline-xl": [ "Playfair Display" ], "headline-md": [ "Playfair Display" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Playfair Display" ], "label-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Playfair Display" ] }, "fontSize": { "headline-sm": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-xl": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-xl-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(91,26,43,0.05)]"><div class="h-20 w-full px-gutter-desktop mx-auto flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Soirée AI Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ul51A9efJRqh_pIQJv61FMva77KdzBaQxf1SyMpHtXZb8bEpyavrZ1x3w85TkZrAlQ_rPah33x7_3EcSlgK7pJRA5JQk6droIbQ0hItimmtDiwvkuVQljLTbHAkoLaSW37wMSHGxQ5qLozCH26xW9sGpwU_hO5ECYWFpKZKFFAkyeukVnrd9_5WWreC2BGVM91Rtxe7k93BXTVLjSQGpzOry56MPSTaohOZUgtOZxdEg"/><a class="flex flex-col" data-path="home" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none">Soirée AI</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mt-1">Bespoke Celebration Studio</span></a></div><nav class="hidden xl:flex items-center gap-space-xs px-space-xs py-1 rounded-full bg-surface-container-low/70" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-full"><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="features" href="#">Features</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="event-types" href="#">Event Types</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="vendors" href="#">Vendors</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="inspiration" href="#">Inspiration</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="guides" href="#">Guides</a></nav><div class="flex items-center gap-space-sm shrink-0"><button aria-label="Search Celebrations" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="hidden sm:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container/30 hover:bg-secondary-container/50 text-secondary transition-colors" data-path="chat-with-ai" href="#"><span class="material-symbols-outlined text-[18px] text-secondary">auto_awesome</span><span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Chat with AI</span></a><a class="hidden md:inline-flex items-center justify-center px-space-lg py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shadow-[0_4px_20px_rgba(91,26,43,0.2)] hover:shadow-[0_6px_24px_rgba(91,26,43,0.3)]" data-path="plan-my-event" href="#">Plan My Event</a><div class="flex items-center gap-space-xs pl-space-xs"><button aria-label="Notifications" class="relative w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface"></span></button><a class="relative flex items-center p-0.5 rounded-full ring-1 ring-secondary/40 hover:ring-secondary transition-all" data-path="host-profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsQcxoRX0fz_0KbH982djli-vJWFCeSAcnPumshsAah4GHXgfLesoh6n06Ykim5Jz5bezKr6mkvpducdksjP4yqf2-iA8hFvOOUG9kPKWT8nq05Xx1fvds53wJtl5dspbW2qj14PTWfKN2y3Hfts4VRgZiXEjwx8-Pmv0xNlwX--vPGC84_4lzXepeFM-lhuML2EJax8w9e2_eAW6ReCaIyx6aACbEHZ_H6-1RGtD1"/></a></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<div class="w-full px-gutter-desktop py-space-xl flex flex-col gap-space-xl max-w-[1600px] mx-auto">
+<!-- Editorial Header Section -->
+<header class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
+<div class="flex flex-col max-w-3xl">
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest font-bold">Atelier Calendar</span>
+<span class="text-secondary/50 font-serif">•</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Cap d'Antibes Gala 2025</span>
+<span class="ml-space-xs px-2 py-0.5 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm">Private Salon Lock</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Chronology &amp; Milestone Runway</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          Precision temporal orchestration with automated countdown checkpoints, vendor arrival run-of-show, and generative schedule buffer optimization.
+        </p>
+</div>
+<!-- Quick Metrics Strip -->
+<div class="flex items-center gap-space-md p-space-sm rounded-xl bg-surface-container-low shadow-sm shrink-0">
+<div class="flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-[18px] text-secondary">hourglass_top</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">T-Minus</span>
+<span class="font-label-lg text-label-lg font-bold text-primary">142 Days</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm py-1 rounded-lg bg-surface-container-lowest">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Integrity</span>
+<span class="font-label-lg text-label-lg font-bold text-secondary">98.4% Synced</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Controls Bar -->
+<div class="w-full bg-surface-container-low p-space-md rounded-2xl flex flex-col lg:flex-row lg:items-center justify-between gap-space-md shadow-sm">
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- View Switcher -->
+<div class="inline-flex p-1 bg-surface-container rounded-full" id="view-switcher" role="tablist">
+<button class="px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider text-on-primary bg-primary shadow-sm transition-all" data-view="runway" type="button">
+            Runway Timeline (12 Mos)
+          </button>
+<button class="px-space-md py-1.5 rounded-full font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-all" data-view="run-of-show" type="button">
+            Day-Of Run of Show (Minute-by-Min)
+          </button>
+</div>
+<!-- Filter Chips -->
+<div class="hidden sm:flex items-center gap-1 overflow-x-auto pl-space-xs" id="category-filters">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mr-1">Filter:</span>
+<button class="px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider transition-colors hover:bg-surface-variant">All (24)</button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider transition-colors hover:bg-surface-container-high">Venue</button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider transition-colors hover:bg-surface-container-high">Sommeliers</button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider transition-colors hover:bg-surface-container-high">Florals</button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider transition-colors hover:bg-surface-container-high">Sound</button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider transition-colors hover:bg-surface-container-high">Fitting</button>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-xs">
+<button class="group relative px-space-lg py-2.5 rounded-full bg-gradient-to-r from-primary via-primary-container to-primary text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-md hover:shadow-lg transition-all flex items-center gap-2 overflow-hidden" id="auto-harmonize-btn" type="button">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px] transition-transform group-hover:rotate-12" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span>Auto-Harmonize Timeline with AI</span>
+<span class="absolute inset-0 bg-secondary-fixed/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></span>
+</button>
+<button class="px-space-md py-2.5 rounded-full bg-surface-container-lowest text-on-surface hover:bg-surface-container font-label-md text-label-md uppercase tracking-wider flex items-center gap-1.5 transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">picture_as_pdf</span>
+<span class="hidden sm:inline">Export PDF</span>
+</button>
+</div>
+</div>
+<!-- Main Workspace Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Central / Left Column: Vertical Interactive Timeline Runway -->
+<div class="lg:col-span-8 flex flex-col gap-space-xl">
+<!-- Phase 1: Foundational Retainers -->
+<section class="flex flex-col gap-space-md relative">
+<div class="flex items-baseline justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<h2 class="font-headline-md text-headline-md text-primary">12 to 9 Months Out</h2>
+<span class="text-on-surface-variant font-body-sm text-body-sm">— Foundational Retainers</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">100% Finalized</span>
+</div>
+<!-- Milestones Group 1 -->
+<div class="relative pl-6 flex flex-col gap-space-md before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-surface-variant">
+<!-- Milestone Card 1 -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="absolute -left-[27px] top-6 w-3 h-3 rounded-full bg-secondary ring-4 ring-surface"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Locked</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">Venue</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Completed Nov 14, 2024</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Château de la Garoupe Exclusive Lease Lock-in</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                    Bespoke cliffside estate charter confirmed with private jetty access, helipad clearance, and twilight curfew indemnity protocols.
+                  </p>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Vendor Assignment</span>
+<span class="font-label-md text-label-md font-semibold text-primary">Garoupe Estate Registry</span>
+</div>
+</div>
+<!-- Dependencies & Micro-actions -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low/50 px-space-md py-space-xs rounded-xl">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-secondary">link</span>
+<span>Precedent for: Sound permit &amp; fireworks maritime buffer</span>
+</div>
+<button class="text-secondary hover:text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold inline-flex items-center gap-1 transition-colors" type="button">
+                  View Dossier <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Milestone Card 2 -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="absolute -left-[27px] top-6 w-3 h-3 rounded-full bg-secondary ring-4 ring-surface"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Locked</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">Cellar &amp; Sommeliers</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Completed Jan 18, 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Sommelier Cellaring &amp; Vintage Allocation Schedule</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                    Curation of 1996 Dom Pérignon P2 magnums and rare Domaine de la Romanée-Conti flights reserved under thermo-stabilized transport bond.
+                  </p>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lead Sommelier</span>
+<span class="font-label-md text-label-md font-semibold text-primary">Éric Beauchamp (Paris)</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Phase 2: Sensory & Design Refinement -->
+<section class="flex flex-col gap-space-md relative">
+<div class="flex items-baseline justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim animate-pulse"></span>
+<h2 class="font-headline-md text-headline-md text-primary">6 to 3 Months Out</h2>
+<span class="text-on-surface-variant font-body-sm text-body-sm">— Sensory &amp; Design Refinement</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Active Runway Focus</span>
+</div>
+<!-- Milestones Group 2 -->
+<div class="relative pl-6 flex flex-col gap-space-md before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-surface-variant">
+<!-- Milestone Card 3: Priority -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-md hover:shadow-xl transition-all relative ring-1 ring-secondary/20">
+<div class="absolute -left-[27px] top-6 w-3 h-3 rounded-full bg-primary ring-4 ring-primary-fixed"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">In Progress</span>
+<span class="px-2.5 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm uppercase tracking-wider font-bold">Due in 12 Days</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">Florals &amp; Decor</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Haute Floral Table Scape &amp; Centerpiece Prototype Review</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                    In-person sensory tasting of cascading white gardenias, dusk lilies, and hand-dipped beeswax tapering. Requires photometrics review under candle glow.
+                  </p>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Botanical Atelier</span>
+<span class="font-label-md text-label-md font-semibold text-primary">Maison Lachaume</span>
+</div>
+</div>
+<!-- Media Preview + AI Buffer Insight -->
+<div class="mt-space-md grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Exquisite luxury floral centerpiece featuring white gardenias and lush trailing greens set upon an ivory French linen tablecloth in dramatic soft evening candlelight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWZrQdM4lQHPPmwQapJEt2PsKEvadMl9wj6ezYxGO4tboTjSVcLtT2d6BAz31l2jDewRntPpdJhQPAWWB_VdMWeaP6Flc3W0gAlUsd7u-HVslYcvLuSOTJWGtCutV3-P9jvASM04PHJTssJyh6hbU0Qcm1GJaJpO8ozJVuph7PI23yjw6DoDvu81a5GLeO5xhOx3GbXQdrrhz6uRKL67cdKvFaGUBJUiTlSSQvxIWq"/>
+<span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-surface/80 backdrop-blur text-primary font-label-sm text-label-sm">Prototype A</span>
+</div>
+<div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="High-end botanical styling mockups of dark moody burgundy dahlias, champagne orchids and crystal glassware catching warm candle light on an antique mirrored table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeORLEFvEFCWXevz7iV1DzROej_5C_CwAS-3o9tmjgcuMznRzWoR4HxpCpeWkaOY-WV2KTzGFKsOXP2BHpCFubC9_cJw4ELCupP0OBRI7ZVFbepWgMBuvb5BXN39ql3epqT58INe-aabAmtjXQCk7HvtZBvMy2e74kZl8QAHx4KtLRZ8CqM17jMTQSez7Xn9xoc6okdV7Cvj6_MkjwIGBSnMMxjrJfxSiCFITNbWBx"/>
+<span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-surface/80 backdrop-blur text-primary font-label-sm text-label-sm">Prototype B</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">AI Temperature Note</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                      Gardenias wilt 22% faster if ambient afternoon heat surpasses 27°C. AI recommends mist-lock containment protocol until 17:30.
+                    </p>
+</div>
+<button class="w-full py-1.5 rounded-lg bg-surface-container-highest text-primary font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-variant transition-colors mt-2 text-center" type="button">
+                    Confirm Specs
+                  </button>
+</div>
+</div>
+</article>
+<!-- Milestone Card 4 -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="absolute -left-[27px] top-6 w-3 h-3 rounded-full bg-secondary-fixed ring-4 ring-surface"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">Scheduled: Oct 24</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">Catering &amp; Cuisine</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Bespoke 7-Course Gala Menu Private Tasting</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                    Chef Christian Morisset private tasting at Antibes salon for host and 4 culinary delegates. Caviar service calibration and vegetarian alternatives pass.
+                  </p>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Executive Chef</span>
+<span class="font-label-md text-label-md font-semibold text-primary">Le Figuier de Saint-Esprit</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Phase 3: Operational Finality -->
+<section class="flex flex-col gap-space-md relative">
+<div class="flex items-baseline justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-outline-variant"></span>
+<h2 class="font-headline-md text-headline-md text-primary">1 Month to Day-Of</h2>
+<span class="text-on-surface-variant font-body-sm text-body-sm">— Operational Finality</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Scheduled Queue</span>
+</div>
+<!-- Milestones Group 3 -->
+<div class="relative pl-6 flex flex-col gap-space-md before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-surface-variant">
+<!-- Milestone Card 5 -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="absolute -left-[27px] top-6 w-3 h-3 rounded-full bg-outline-variant ring-4 ring-surface"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">AI Supervised</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">Operations</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Scheduled T-14 Days</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Comprehensive VIP Call Sheet &amp; Embassy Security Dispatches</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                    Diplomatic motorcade arrival windows coordinated with Alpes-Maritimes prefecture and private maritime security patrols.
+                  </p>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Security Lead</span>
+<span class="font-label-md text-label-md font-semibold text-primary">Côte d'Azur Protection</span>
+</div>
+</div>
+</article>
+<!-- Milestone Card 6 -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow relative">
+<div class="absolute -left-[27px] top-6 w-3 h-3 rounded-full bg-outline-variant ring-4 ring-surface"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Pending Trigger</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">Sound &amp; Cellar</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Day-Of Execution</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Sound Engineer Acoustic Calibration &amp; Vintage Decanting Protocol</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                    Acoustic balancing across terrace stone colonnades plus strict 3-hour pre-service oxygenation sequence for 2005 Premier Cru vintages.
+                  </p>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Supervisors</span>
+<span class="font-label-md text-label-md font-semibold text-primary">L-Acoustics &amp; Sommelier Pair</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+</div>
+<!-- Right Column: Temporal Diagnostics, Weather & Run-of-Show Pulse -->
+<aside class="lg:col-span-4 flex flex-col gap-space-lg lg:sticky lg:top-24">
+<!-- AI Temporal Diagnostics Alert Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-md ring-1 ring-secondary/30 relative overflow-hidden" id="diagnostic-card">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-fixed/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex items-center justify-between gap-space-xs mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]" style="font-variation-settings: 'FILL' 1;">warning_amber</span>
+<span class="font-label-md text-label-md uppercase tracking-wider font-bold text-primary">AI Temporal Conflict Detected</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-bold uppercase">Critical Buffer</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="text-on-surface font-semibold">Florist setup intersects with Acoustic Quartet rehearsal</strong> on the Grand Balustrade terrace by <span class="text-error font-semibold">30 minutes</span> (15:00–15:30). Acoustic resonance tests may disturb delicate arch styling.
+          </p>
+<div class="mt-space-md p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>Proposed Adjustment</span>
+<span class="text-secondary font-bold">+45m Buffer Recalculation</span>
+</div>
+<div class="text-on-surface font-body-sm text-body-sm">
+              Shift Quartet soundcheck to <span class="font-semibold text-primary">14:15 CET</span> and advance Floral load-in entry via service gate 3.
+            </div>
+</div>
+<button class="w-full mt-space-md py-2.5 px-space-md rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all flex items-center justify-center gap-2 shadow-sm" id="resolve-stagger-btn" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">auto_fix_high</span>
+<span>Auto-Stagger Vendor Arrivals</span>
+</button>
+</div>
+<!-- Day-Of Golden Hour & Weather Horizon Widget -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">wb_twilight</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Sunset &amp; Photometrics</h3>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Cap d'Antibes, June 21</span>
+</div>
+<!-- Visual Golden Hour Chart -->
+<div class="p-space-md rounded-xl bg-gradient-to-r from-surface-container-low via-secondary-container/20 to-surface-container-low flex flex-col gap-space-xs mt-1">
+<div class="flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block">Sunset Lock</span>
+<span class="font-headline-md text-headline-md text-primary font-serif">21:18</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">CET</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block">Prime Golden Hour</span>
+<span class="font-label-lg text-label-lg font-bold text-primary">20:35 — 21:10</span>
+</div>
+</div>
+<!-- Photometrics Arc SVG -->
+<div class="w-full py-2">
+<svg class="w-full h-12 text-secondary" fill="none" viewbox="0 0 300 48">
+<path d="M 10 40 Q 150 -10 290 40" fill="none" stroke="currentColor" stroke-dasharray="4 4" stroke-opacity="0.25" stroke-width="2"></path>
+<!-- Sun progress position -->
+<circle cx="215" cy="14" fill="currentColor" r="6"></circle>
+<circle cx="215" cy="14" r="11" stroke="currentColor" stroke-opacity="0.3" stroke-width="1.5"></circle>
+<!-- Text markers on trajectory -->
+<text fill="#534345" font-family="Plus Jakarta Sans" font-size="9" x="18" y="46">18:00 (Arrivals)</text>
+<text fill="#3f0417" font-family="Plus Jakarta Sans" font-size="9" font-weight="600" text-anchor="middle" x="215" y="46">20:45 (Portraits)</text>
+</svg>
+</div>
+<div class="flex items-center justify-between pt-1 border-t-0 font-body-sm text-body-sm text-on-surface-variant">
+<span>Photo Session Lock-in:</span>
+<span class="font-semibold text-primary">20:40 sharp (Terrace Lawn)</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs mt-1">
+<div class="p-space-xs px-space-sm rounded-lg bg-surface-container-low flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">air</span>
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Wind Forecast</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">6 knots (Mistral Calm)</span>
+</div>
+</div>
+<div class="p-space-xs px-space-sm rounded-lg bg-surface-container-low flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">thermostat</span>
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Eve Ambience</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">23°C Clear Night</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Master Run-of-Show Quick Pulse Mini-Schedule -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">schedule</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Day-Of Quick Pulse</h3>
+</div>
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors font-bold" href="#">Full Schedule</a>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Live synchronized cue sheet with automated alert broadcast to all department leads.
+          </p>
+<!-- Timeline items -->
+<div class="flex flex-col gap-space-xs mt-2" id="quick-pulse-list">
+<div class="p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors flex items-center justify-between gap-space-xs group">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md font-bold text-secondary font-mono w-14">16:30</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface group-hover:text-primary transition-colors">Yacht Shuttle Commences</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Port Gallice to Private Dock</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0">directions_boat</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors flex items-center justify-between gap-space-xs group">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md font-bold text-secondary font-mono w-14">17:15</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface group-hover:text-primary transition-colors">Magnum Champagne Sabering</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Terrace welcomes first 40 VIPs</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0">wine_bar</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors flex items-center justify-between gap-space-xs group">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md font-bold text-secondary font-mono w-14">19:00</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface group-hover:text-primary transition-colors">Haute Gastronomy Seating</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Symphony fanfare cue #2</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0">restaurant</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors flex items-center justify-between gap-space-xs group">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md font-bold text-secondary font-mono w-14">23:00</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface group-hover:text-primary transition-colors">Midnight Pyrotechnic Display</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Barge launches over Golfe-Juan</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0">flare</span>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary inline-block"></span>
+              Broadcasting on Private Radio Ch. 4
+            </span>
+<button class="text-primary hover:text-secondary font-semibold uppercase tracking-wider" type="button">Ping Staff</button>
+</div>
+</div>
+</aside>
+</div>
+<!-- Editorial Quote / Sommelier Master Footnote -->
+<div class="mt-space-lg p-space-lg rounded-2xl bg-surface-container-low flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-secondary-fixed shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-headline-sm text-primary">Concierge Haute Synchronization Guarantee</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Every temporal milestone is cross-referenced with maritime harbor master regulations, sunset lumens, and cellar temperature curves.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Automated Audit Active</span>
+<button class="px-space-md py-2 rounded-full bg-surface-container-lowest hover:bg-surface-container text-primary font-label-md text-label-md uppercase tracking-wider transition-colors shadow-sm" type="button">
+          Run Diagnostics
+        </button>
+</div>
+</div>
+</div>
+<!-- Interactive Micro-Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // View Switcher functionality
+      const switcher = document.getElementById('view-switcher');
+      if (switcher) {
+        const buttons = switcher.querySelectorAll('button');
+        buttons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            buttons.forEach(b => {
+              b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+              b.classList.add('text-on-surface-variant');
+            });
+            btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+            btn.classList.remove('text-on-surface-variant');
+          });
+        });
+      }
+
+      // Stagger button micro-interaction
+      const staggerBtn = document.getElementById('resolve-stagger-btn');
+      const diagCard = document.getElementById('diagnostic-card');
+      if (staggerBtn && diagCard) {
+        staggerBtn.addEventListener('click', () => {
+          staggerBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin">refresh</span><span>Applying 45m Stagger...</span>';
+          setTimeout(() => {
+            diagCard.innerHTML = `
+              <div class="flex items-center gap-2 text-secondary mb-2">
+                <span class="material-symbols-outlined text-[22px]">check_circle</span>
+                <span class="font-label-md text-label-md uppercase tracking-wider font-bold">Temporal Harmony Restored</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                Quartet rehearsal advanced to 14:15. Florist load-in confirmed for 15:30. Zero acoustic interference registered.
+              </p>
+              <div class="mt-3 py-1 px-2 rounded bg-surface-container font-label-sm text-label-sm text-primary uppercase font-bold text-center">
+                Vendor Push Notifications Dispatched
+              </div>
+            `;
+          }, 700);
+        });
+      }
+
+      // Auto harmonize button feedback
+      const harmonizeBtn = document.getElementById('auto-harmonize-btn');
+      if (harmonizeBtn) {
+        harmonizeBtn.addEventListener('click', () => {
+          const originalText = harmonizeBtn.innerHTML;
+          harmonizeBtn.innerHTML = '<span class="material-symbols-outlined text-secondary-fixed text-[18px] animate-spin">hourglass_top</span><span>Balancing Buffers...</span>';
+          setTimeout(() => {
+            harmonizeBtn.innerHTML = '<span class="material-symbols-outlined text-secondary-fixed text-[18px]">done_all</span><span>Timeline Harmonized</span>';
+            setTimeout(() => {
+              harmonizeBtn.innerHTML = originalText;
+            }, 2500);
+          }, 900);
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="w-full px-gutter-desktop mx-auto pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-2xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-secondary-fixed"><span class="material-symbols-outlined text-[18px]">wine_bar</span></div><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Soirée AI</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">An elevated generative intelligence suite for discerning celebrants, sommeliers, and private gala hosts crafting memories with quiet luxury.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Haute Concierge Verified</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Curated Events</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="weddings" href="#">Weddings</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="galas" href="#">Galas</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="birthdays" href="#">Birthdays</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-events" href="#">Community Events</a></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Intelligence</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="vendor-directory" href="#">Vendor Directory</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-concierge" href="#">AI Concierge</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="sommelier-cellar" href="#">Cellar &amp; Pairings</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="seating-atelier" href="#">Seating Atelier</a></div></div><div class="lg:col-span-4 flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Join the Inner Circle</span><p class="font-body-sm text-body-sm text-on-surface-variant">Receive private cellar vintage releases, salon invitations, and bespoke event styling monographs.</p><form class="flex flex-col sm:flex-row gap-space-xs w-full" onsubmit="return false;"><input class="flex-1 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none ring-1 ring-outline-variant focus:ring-secondary transition-all" placeholder="Enter your correspondence email" type="email"/><button class="px-space-md py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shrink-0" type="submit">Subscribe</button></form></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md bg-surface-container-high/40 px-space-md py-space-sm rounded-xl"><div class="flex items-center gap-space-md flex-wrap"><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge-contact" href="#">Private Office</a></div><p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">© 2025 Soirée AI Inc. Handcrafted for discerning hosts.</p></div></div></footer></body></html>

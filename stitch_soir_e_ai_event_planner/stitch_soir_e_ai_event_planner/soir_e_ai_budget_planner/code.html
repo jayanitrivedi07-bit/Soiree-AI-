@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container": "#f0eded", "outline": "#867275", "background": "#fcf9f8", "on-secondary": "#ffffff", "on-surface-variant": "#534345", "surface-tint": "#934657", "inverse-surface": "#303030", "on-tertiary-fixed": "#281718", "surface-variant": "#e4e2e1", "on-primary-fixed-variant": "#762f40", "primary": "#3f0417", "secondary-fixed-dim": "#e6c184", "on-tertiary": "#ffffff", "surface": "#fcf9f8", "surface-dim": "#dcd9d9", "primary-fixed": "#ffd9de", "secondary-fixed": "#ffdea9", "secondary": "#765a26", "on-secondary-container": "#785c29", "outline-variant": "#d8c1c3", "tertiary-fixed": "#fbdbdb", "surface-bright": "#fcf9f8", "on-secondary-fixed-variant": "#5c4211", "on-surface": "#1b1c1c", "on-error": "#ffffff", "inverse-on-surface": "#f3f0f0", "on-primary": "#ffffff", "tertiary-fixed-dim": "#debfbf", "on-error-container": "#93000a", "inverse-primary": "#ffb2bf", "surface-container-lowest": "#ffffff", "on-tertiary-container": "af9393", "tertiary": "#2a1819", "on-secondary-fixed": "#271900", "surface-container-low": "#f6f3f2", "secondary-container": "#fed798", "on-primary-fixed": "#3d0316", "error-container": "#ffdad6", "on-primary-container": "#d97f91", "tertiary-container": "#402d2d", "surface-container-high": "#eae7e7", "error": "#ba1a1a", "primary-fixed-dim": "#ffb2bf", "on-tertiary-fixed-variant": "#574142", "surface-container-highest": "#e4e2e1", "on-background": "#1b1c1c", "primary-container": "#5b1a2b" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter-desktop": "2.5rem", "margin": "1.25rem", "margin-desktop": "4rem", "space-lg": "1.5rem", "space-2xl": "4rem", "gutter": "1.5rem", "space-md": "1rem", "margin-tablet": "2.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-sm": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "headline-xl": [ "Playfair Display" ], "headline-md": [ "Playfair Display" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Playfair Display" ], "label-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Playfair Display" ] }, "fontSize": { "headline-sm": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-xl": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-xl-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(91,26,43,0.05)]"><div class="h-20 w-full px-gutter-desktop mx-auto flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Soirée AI Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ul51A9efJRqh_pIQJv61FMva77KdzBaQxf1SyMpHtXZb8bEpyavrZ1x3w85TkZrAlQ_rPah33x7_3EcSlgK7pJRA5JQk6droIbQ0hItimmtDiwvkuVQljLTbHAkoLaSW37wMSHGxQ5qLozCH26xW9sGpwU_hO5ECYWFpKZKFFAkyeukVnrd9_5WWreC2BGVM91Rtxe7k93BXTVLjSQGpzOry56MPSTaohOZUgtOZxdEg"/><a class="flex flex-col" data-path="home" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none">Soirée AI</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mt-1">Bespoke Celebration Studio</span></a></div><nav class="hidden xl:flex items-center gap-space-xs px-space-xs py-1 rounded-full bg-surface-container-low/70" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-full"><a aria-current="page" class="px-space-md py-space-xs tracking-wider uppercase transition-colors bg-surface-container-high text-primary font-semibold rounded-full" data-path="features" href="#">Features</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="event-types" href="#">Event Types</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="vendors" href="#">Vendors</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="inspiration" href="#">Inspiration</a><a class="px-space-md py-space-xs font-label-md text-label-md tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="guides" href="#">Guides</a></nav><div class="flex items-center gap-space-sm shrink-0"><button aria-label="Search Celebrations" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="hidden sm:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container/30 hover:bg-secondary-container/50 text-secondary transition-colors" data-path="chat-with-ai" href="#"><span class="material-symbols-outlined text-[18px] text-secondary">auto_awesome</span><span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Chat with AI</span></a><a class="hidden md:inline-flex items-center justify-center px-space-lg py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shadow-[0_4px_20px_rgba(91,26,43,0.2)] hover:shadow-[0_6px_24px_rgba(91,26,43,0.3)]" data-path="plan-my-event" href="#">Plan My Event</a><div class="flex items-center gap-space-xs pl-space-xs"><button aria-label="Notifications" class="relative w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface"></span></button><a class="relative flex items-center p-0.5 rounded-full ring-1 ring-secondary/40 hover:ring-secondary transition-all" data-path="host-profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsQcxoRX0fz_0KbH982djli-vJWFCeSAcnPumshsAah4GHXgfLesoh6n06Ykim5Jz5bezKr6mkvpducdksjP4yqf2-iA8hFvOOUG9kPKWT8nq05Xx1fvds53wJtl5dspbW2qj14PTWfKN2y3Hfts4VRgZiXEjwx8-Pmv0xNlwX--vPGC84_4lzXepeFM-lhuML2EJax8w9e2_eAW6ReCaIyx6aACbEHZ_H6-1RGtD1"/></a></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<section class="w-full px-gutter-desktop py-space-xl flex flex-col gap-space-xl">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm uppercase tracking-widest">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+            Sovereign Ledger · Cap d'Antibes Gala 2025
+          </span>
+<span class="text-outline text-label-sm font-label-sm uppercase tracking-widest">· Fiscal Cycle Active</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Event Treasury &amp; Smart Budget Allocator</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Precision budget management with real-time AI cost benchmarking, liquidity thresholds, and automated sommelier-tier negotiations.
+        </p>
+</div>
+<div class="flex items-center flex-wrap gap-space-sm shrink-0">
+<div class="relative inline-flex items-center rounded-full bg-surface-container-high px-space-sm py-1">
+<label class="sr-only" for="currency-select">Currency</label>
+<span class="material-symbols-outlined text-[18px] text-secondary ml-1 mr-1">payments</span>
+<select class="bg-transparent font-label-md text-label-md uppercase tracking-wider text-primary focus:outline-none pr-space-sm cursor-pointer" id="currency-select">
+<option value="USD">USD ($)</option>
+<option value="EUR">EUR (€)</option>
+<option value="GBP">GBP (£)</option>
+<option value="CHF">CHF (Fr.)</option>
+</select>
+</div>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest hover:bg-surface-container-high text-on-surface shadow-sm font-label-md text-label-md uppercase tracking-wider transition-all" onclick="alert('Exporting sealed Treasury Ledger PDF with cryptographic seal...')" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">picture_as_pdf</span>
+          Export Treasury PDF
+        </button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary text-on-secondary font-label-md text-label-md uppercase tracking-wider hover:opacity-95 shadow-sm transition-all" onclick="triggerSimulationModal()" type="button">
+<span class="material-symbols-outlined text-[18px]">group_add</span>
+          Simulate Guest Fluctuation
+        </button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<div class="lg:col-span-8 flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-lowest shadow-md relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-64 h-64 bg-gradient-to-br from-secondary/10 via-primary/5 to-transparent rounded-full pointer-events-none blur-2xl"></div>
+<div class="flex flex-col gap-space-lg relative z-10">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Consolidated Fiscal Envelope</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">88.5% Committed</span>
+</div>
+<div class="inline-flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+              Synchronized with Haute Concierge Desk
+            </div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Total Budget</span>
+<span class="font-headline-md text-headline-md text-primary mt-0.5" id="metric-total">$50,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Approved ceiling</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Disbursed / Spent</span>
+<span class="font-headline-md text-headline-md text-primary mt-0.5" id="metric-spent">$34,850</span>
+<span class="font-body-sm text-body-sm text-secondary mt-0.5">69.7% settling</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Committed Encumbrance</span>
+<span class="font-headline-md text-headline-md text-on-surface mt-0.5" id="metric-committed">$9,400</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Under contract</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Remaining Liquidity</span>
+<span class="font-headline-md text-headline-md text-secondary mt-0.5" id="metric-remaining">$5,750</span>
+<span class="font-body-sm text-body-sm text-secondary mt-0.5">Buffer secured</span>
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface font-semibold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">speed</span>
+                Spending Velocity vs. Safe Liquidity Threshold
+              </span>
+<span class="font-label-md text-label-md text-secondary font-bold">Safe Runway: +11.5% Buffer Left</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container relative overflow-hidden flex">
+<div class="h-full bg-primary transition-all duration-700" id="bar-spent" style="width: 69.7%;" title="Spent: $34,850"></div>
+<div class="h-full bg-secondary-fixed-dim transition-all duration-700" id="bar-committed" style="width: 18.8%;" title="Committed: $9,400"></div>
+<div class="h-full bg-surface-container-high transition-all duration-700" id="bar-remaining" style="width: 11.5%;" title="Remaining: $5,750"></div>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs text-label-sm font-label-sm text-outline uppercase tracking-wider pt-1">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-primary"></span> Spent ($34.85k)</span>
+<span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim"></span> Committed ($9.4k)</span>
+<span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-surface-container-high"></span> Liquid ($5.75k)</span>
+</div>
+<span class="text-primary font-semibold">Over-index threshold limit: $48,000</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md relative z-10">
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+            “Autonomous audits detect a +$1,450 reallocation window in floral design.”
+          </p>
+<button class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shadow-[0_4px_20px_rgba(91,26,43,0.25)] hover:shadow-[0_6px_24px_rgba(91,26,43,0.35)] shrink-0" onclick="runAiOptimization()" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">auto_awesome</span>
+<span>Optimize My Budget with AI ✨</span>
+</button>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="p-space-lg rounded-xl bg-tertiary-fixed text-on-tertiary-fixed flex flex-col justify-between shadow-md relative overflow-hidden">
+<div class="flex items-start gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-primary text-secondary-fixed flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">warning_amber</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">AI Savings Alert</span>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">+12% Bench.</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-tertiary-fixed leading-relaxed pt-1">
+                Floral quote is 12% above benchmark. Switching to in-season heirloom dahlias saves <strong class="text-primary font-bold">$1,450</strong> without compromising visual density.
+              </p>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-sm pt-space-md mt-space-sm">
+<button class="inline-flex items-center gap-1.5 px-space-md py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider transition-all shadow-sm" id="apply-btn" onclick="applyFlowerSavings()" type="button">
+<span class="material-symbols-outlined text-[15px] text-secondary-fixed">check_circle</span>
+              Apply Reallocation
+            </button>
+<button class="font-label-sm text-label-sm uppercase tracking-wider text-on-tertiary-fixed-variant hover:text-primary transition-colors" onclick="dismissAlert(this)" type="button">
+              Dismiss
+            </button>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Concierge Treasury Intelligence</span>
+<span class="material-symbols-outlined text-[18px] text-secondary">neurology</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<svg class="w-12 h-12 shrink-0 -rotate-90" viewbox="0 0 36 36">
+<path class="text-tertiary-fixed-dim" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="82, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary leading-none">94 / 100</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Contract Negotiation Rating</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            All vendor retainers include standard bespoke grace clauses and weather postponement protection riders.
+          </p>
+</div>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col lg:flex-row items-center justify-between gap-space-lg shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-full bg-secondary-container/50 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">tune</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-primary">Interactive Allocation Atelier</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Fine-tune macro budget ceilings in real-time. Sliders automatically adjust downstream caterer, sommelier, and floral retainer margins.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-md w-full lg:w-auto">
+<div class="flex flex-col gap-1 w-full sm:w-64">
+<div class="flex justify-between text-label-sm font-label-sm uppercase tracking-wider text-outline">
+<span>Hospitality Ratio</span>
+<span class="font-bold text-primary" id="ratio-val">64% Catering &amp; Wine</span>
+</div>
+<input class="w-full accent-primary cursor-pointer h-1.5 bg-surface-container-highest rounded-lg appearance-none" max="80" min="40" oninput="updateHospitalityRatio(this.value)" type="range" value="64"/>
+</div>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-highest hover:bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-colors shrink-0" onclick="resetAllocations()" type="button">
+          Reset Base
+        </button>
+</div>
+</div>
+<div class="flex flex-col rounded-xl bg-surface-container-lowest shadow-md overflow-hidden">
+<div class="p-space-lg flex flex-col sm:flex-row sm:items-center justify-between gap-space-md bg-surface-container-low/50">
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-primary">Expenditure Breakdown &amp; Sub-Items</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">6 Primary Categories · 18 Active Invoices Audited</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-space-xs rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-colors" onclick="expandAllRows()" type="button">
+            Expand All
+          </button>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-colors" onclick="collapseAllRows()" type="button">
+            Collapse All
+          </button>
+</div>
+</div>
+<div class="overflow-x-auto w-full">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-outline font-label-sm text-label-sm uppercase tracking-widest">
+<th class="py-space-md px-space-lg font-bold">Category &amp; Service Provider</th>
+<th class="py-space-md px-space-md font-bold">Allocated Ceiling</th>
+<th class="py-space-md px-space-md font-bold">Spent / Invoiced</th>
+<th class="py-space-md px-space-md font-bold">Liquidity Delta</th>
+<th class="py-space-md px-space-md font-bold">Status Badge</th>
+<th class="py-space-md px-space-lg font-bold text-right">Adjustment</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-on-surface font-body-md text-body-md">
+<tr class="hover:bg-surface-container-low/60 transition-colors group cursor-pointer" onclick="toggleSubItem('sub-venue')">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:rotate-90 transition-transform" id="icon-venue">chevron_right</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Venue &amp; Valet</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Château de la Garoupe &amp; Riviera Chauffeurs</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md font-semibold text-on-surface">$18,000</td>
+<td class="py-space-md px-space-md text-primary font-bold">$17,500</td>
+<td class="py-space-md px-space-md text-secondary font-semibold">+$500 safe</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                  Paid &amp; Secured
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-right" onclick="event.stopPropagation();">
+<div class="inline-flex items-center gap-2">
+<input class="w-24 accent-secondary cursor-pointer" max="22000" min="15000" oninput="this.title = '$' + Number(this.value).toLocaleString()" step="500" type="range" value="18000"/>
+</div>
+</td>
+</tr>
+<tr class="hidden bg-surface-container-lowest/90" id="sub-venue">
+<td class="px-space-2xl py-space-md" colspan="6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Exclusive Estate Rental</span>
+<span class="font-headline-sm text-[16px] text-primary">$15,000 · Settled</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Includes 3 nights private grounds access</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Valet &amp; Security Escort</span>
+<span class="font-headline-sm text-[16px] text-primary">$2,500 · Settled</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">6 VIP chauffeurs, 4 security stewards</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Site Contingency Bond</span>
+<span class="font-headline-sm text-[16px] text-secondary">$500 Reserved</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Refundable post-event cleaning buffer</span>
+</div>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors group cursor-pointer" onclick="toggleSubItem('sub-catering')">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:rotate-90 transition-transform" id="icon-catering">chevron_right</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Gourmet Catering &amp; Sommelier</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Maison Ducasse Private Cellar Experience</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md font-semibold text-on-surface">$14,000</td>
+<td class="py-space-md px-space-md text-primary font-bold">$13,200</td>
+<td class="py-space-md px-space-md text-secondary font-semibold">+$800 safe</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/40 text-on-secondary-container font-label-sm text-label-sm font-semibold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                  Deposit Paid
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-right" onclick="event.stopPropagation();">
+<div class="inline-flex items-center gap-2">
+<input class="w-24 accent-secondary cursor-pointer" max="18000" min="10000" step="500" type="range" value="14000"/>
+</div>
+</td>
+</tr>
+<tr class="hidden bg-surface-container-lowest/90" id="sub-catering">
+<td class="px-space-2xl py-space-md" colspan="6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">5-Course Tasting Menu</span>
+<span class="font-headline-sm text-[16px] text-primary">$8,500 · 70 Guests</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">White truffle risotto &amp; sea bass</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Sommelier Grand Cru Flight</span>
+<span class="font-headline-sm text-[16px] text-primary">$4,700 · Paid</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">24 btls Champagne, 36 btls Bordeaux</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Sommelier Gratuity &amp; Service</span>
+<span class="font-headline-sm text-[16px] text-secondary">$800 Pending</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Disbursed on night of event</span>
+</div>
+</div>
+</td>
+</tr>
+<tr class="bg-tertiary-fixed/30 hover:bg-tertiary-fixed/50 transition-colors group cursor-pointer" onclick="toggleSubItem('sub-floral')">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-primary group-hover:rotate-90 transition-transform" id="icon-floral">chevron_right</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary flex items-center gap-2">
+                      Floral Design &amp; Ambience
+                      <span class="material-symbols-outlined text-[16px] text-error">priority_high</span>
+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">L'Atelier des Fleurs · Botanical Sculptures</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md font-semibold text-on-surface" id="floral-alloc">$6,500</td>
+<td class="py-space-md px-space-md text-error font-bold" id="floral-spent">$7,200</td>
+<td class="py-space-md px-space-md text-error font-semibold" id="floral-delta">-$700 deficit</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold uppercase tracking-wider" id="floral-badge">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+                  Over Budget Warning
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-right" onclick="event.stopPropagation();">
+<button class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider hover:bg-primary-container shadow-sm" onclick="applyFlowerSavings()" type="button">
+<span class="material-symbols-outlined text-[13px] text-secondary-fixed">auto_fix_high</span>
+                  Remedy
+                </button>
+</td>
+</tr>
+<tr class="hidden bg-surface-container-lowest/90" id="sub-floral">
+<td class="px-space-2xl py-space-md" colspan="6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Imported English Peonies</span>
+<span class="font-headline-sm text-[16px] text-error">$4,200 (Inflated)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Source of quote surge (+12% benchmark)</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Altar Canopy &amp; Table Runners</span>
+<span class="font-headline-sm text-[16px] text-primary">$2,200 · Approved</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Wisteria and olive branches</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Candlelight &amp; Brass Candelabras</span>
+<span class="font-headline-sm text-[16px] text-primary">$800 · Committed</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">120 tapered beeswax candles</span>
+</div>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors group cursor-pointer" onclick="toggleSubItem('sub-photo')">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:rotate-90 transition-transform" id="icon-photo">chevron_right</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Photography &amp; Cinema</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Studio Luminaire Paris (35mm + 4K Drone)</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md font-semibold text-on-surface">$5,500</td>
+<td class="py-space-md px-space-md text-primary font-bold">$5,000</td>
+<td class="py-space-md px-space-md text-secondary font-semibold">+$500 safe</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                  Contract Signed
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-right" onclick="event.stopPropagation();">
+<div class="inline-flex items-center gap-2">
+<input class="w-24 accent-secondary cursor-pointer" max="8000" min="4000" step="500" type="range" value="5500"/>
+</div>
+</td>
+</tr>
+<tr class="hidden bg-surface-container-lowest/90" id="sub-photo">
+<td class="px-space-2xl py-space-md" colspan="6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Lead Photographer + Assistant (10h)</span>
+<span class="font-headline-sm text-[16px] text-primary">$3,400 · Retainer Paid</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Full editorial rights + linen archival box</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Cinematic Highlight Reel &amp; Drone</span>
+<span class="font-headline-sm text-[16px] text-primary">$1,600 · Committed</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Includes orchestral score sound license</span>
+</div>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors group cursor-pointer" onclick="toggleSubItem('sub-music')">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:rotate-90 transition-transform" id="icon-music">chevron_right</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Live Entertainment &amp; Sound</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Monaco Jazz Quintet &amp; Acoustic Trio</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md font-semibold text-on-surface">$4,000</td>
+<td class="py-space-md px-space-md text-primary font-bold">$3,200</td>
+<td class="py-space-md px-space-md text-secondary font-semibold">+$800 safe</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/40 text-on-secondary-container font-label-sm text-label-sm font-semibold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                  Pending Final Review
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-right" onclick="event.stopPropagation();">
+<div class="inline-flex items-center gap-2">
+<input class="w-24 accent-secondary cursor-pointer" max="6000" min="3000" step="250" type="range" value="4000"/>
+</div>
+</td>
+</tr>
+<tr class="hidden bg-surface-container-lowest/90" id="sub-music">
+<td class="px-space-2xl py-space-md" colspan="6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Acoustic Strings for Reception</span>
+<span class="font-headline-sm text-[16px] text-primary">$1,400 · Final Quote</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2-hour golden hour set</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Evening Quintet &amp; Sound Rig</span>
+<span class="font-headline-sm text-[16px] text-primary">$1,800 · Quote Review</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Wireless mics &amp; ambient acoustic staging</span>
+</div>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low/60 transition-colors group cursor-pointer" onclick="toggleSubItem('sub-print')">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:rotate-90 transition-transform" id="icon-print">chevron_right</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Stationery &amp; Signage</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Letterpress Guild &amp; Calligraphy Atelier</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md font-semibold text-on-surface">$2,000</td>
+<td class="py-space-md px-space-md text-primary font-bold">$1,150</td>
+<td class="py-space-md px-space-md text-secondary font-semibold">+$850 safe</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-secondary font-label-sm text-label-sm font-semibold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                  Under Budget
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-right" onclick="event.stopPropagation();">
+<div class="inline-flex items-center gap-2">
+<input class="w-24 accent-secondary cursor-pointer" max="3000" min="1000" step="100" type="range" value="2000"/>
+</div>
+</td>
+</tr>
+<tr class="hidden bg-surface-container-lowest/90" id="sub-print">
+<td class="px-space-2xl py-space-md" colspan="6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md p-space-md rounded-lg bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Gold-Foil Menus &amp; Place Cards</span>
+<span class="font-headline-sm text-[16px] text-primary">$650 · In Production</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Handmade deckle-edge cotton stock</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-outline">Welcome Easel &amp; Seating Atelier Mirror</span>
+<span class="font-headline-sm text-[16px] text-primary">$500 · Settled</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Custom mirrored gold acrylic calligraphy</span>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="p-space-lg bg-surface-container-low/70 flex flex-col sm:flex-row items-center justify-between gap-space-md text-body-sm">
+<div class="flex items-center gap-space-sm text-outline">
+<span class="material-symbols-outlined text-[18px]">lock</span>
+<span>All contracts backed by Soirée AI Smart Escrow protection</span>
+</div>
+<div class="flex items-center gap-space-lg font-label-md text-label-md uppercase tracking-wider">
+<span class="text-on-surface-variant">Allocated Total: <strong class="text-primary">$50,000</strong></span>
+<span class="text-on-surface-variant">Disbursed Total: <strong class="text-primary">$34,850</strong></span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg pt-space-xs">
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">currency_exchange</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Dynamic FX Lock</span>
+<span class="font-body-sm text-body-sm text-outline">Hedging against EUR/USD drift</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Your Côte d'Azur venue holds a guaranteed locked exchange rate until the final 15-day settlement deadline.
+        </p>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Guaranteed Rate: 1.0820 EUR/USD</span>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">shield_with_heart</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Weather &amp; Force Majeure</span>
+<span class="font-body-sm text-body-sm text-outline">Bespoke insurance tier</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Includes automatic marquee deployment subsidy if Mediterranean winds exceed 35 knots on event evening.
+        </p>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Policy #SR-88402-VAL</span>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">query_stats</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[18px] text-primary">Real-Time Benchmarking</span>
+<span class="font-body-sm text-body-sm text-outline">1,240 Verified Galas</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Comparing per-guest allocations across Riviera private events. Your per-guest spend is currently optimized at $714/head.
+        </p>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Top 15% Cost-to-Value Index</span>
+</div>
+</div>
+<div class="hidden fixed inset-0 z-50 flex items-center justify-center bg-primary/40 backdrop-blur-md p-space-md" id="simulation-modal">
+<div class="w-full max-w-lg rounded-xl bg-surface-container-lowest p-space-xl shadow-2xl flex flex-col gap-space-lg">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[24px] text-secondary">group_work</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Simulate Guest Fluctuation</h3>
+</div>
+<button class="w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors" onclick="closeSimulationModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Test financial resilience if RSVPs expand or retract. The algorithm dynamically recalibrates catering headcount, glassware rentals, and sommelier bottle allotments.
+        </p>
+<div class="flex flex-col gap-space-sm">
+<div class="flex justify-between font-label-md text-label-md">
+<span class="text-outline">Anticipated Guest Count</span>
+<span class="text-primary font-bold" id="guest-count-val">70 Guests (Current)</span>
+</div>
+<input class="w-full accent-primary h-2 bg-surface-container rounded-lg" max="110" min="50" oninput="updateGuestSimulation(this.value)" step="5" type="range" value="70"/>
+<div class="flex justify-between text-label-sm font-label-sm text-outline uppercase tracking-wider">
+<span>50 Guests (-$3,200)</span>
+<span>70 (Baseline)</span>
+<span>110 Guests (+$6,400)</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Simulated Projection</span>
+<div class="flex justify-between items-baseline">
+<span class="font-headline-sm text-[20px] text-primary" id="sim-projected-cost">$50,000 Total Envelope</span>
+<span class="font-label-md text-label-md text-secondary" id="sim-buffer-status">Buffer: Safe (+$5,750)</span>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-space-xs rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wider transition-colors" onclick="closeSimulationModal()" type="button">
+            Cancel
+          </button>
+<button class="px-space-lg py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all" onclick="applySimulation()" type="button">
+            Commit Scenario
+          </button>
+</div>
+</div>
+</div>
+</section>
+<script>
+    function toggleSubItem(id) {
+      const el = document.getElementById(id);
+      const iconId = 'icon-' + id.replace('sub-', '');
+      const icon = document.getElementById(iconId);
+      if (el) {
+        el.classList.toggle('hidden');
+      }
+      if (icon) {
+        if (el && !el.classList.contains('hidden')) {
+          icon.textContent = 'expand_more';
+        } else {
+          icon.textContent = 'chevron_right';
+        }
+      }
+    }
+
+    function expandAllRows() {
+      ['sub-venue', 'sub-catering', 'sub-floral', 'sub-photo', 'sub-music', 'sub-print'].forEach(id => {
+        const el = document.getElementById(id);
+        const icon = document.getElementById('icon-' + id.replace('sub-', ''));
+        if (el) el.classList.remove('hidden');
+        if (icon) icon.textContent = 'expand_more';
+      });
+    }
+
+    function collapseAllRows() {
+      ['sub-venue', 'sub-catering', 'sub-floral', 'sub-photo', 'sub-music', 'sub-print'].forEach(id => {
+        const el = document.getElementById(id);
+        const icon = document.getElementById('icon-' + id.replace('sub-', ''));
+        if (el) el.classList.add('hidden');
+        if (icon) icon.textContent = 'chevron_right';
+      });
+    }
+
+    function applyFlowerSavings() {
+      const alloc = document.getElementById('floral-alloc');
+      const spent = document.getElementById('floral-spent');
+      const delta = document.getElementById('floral-delta');
+      const badge = document.getElementById('floral-badge');
+      const metricSpent = document.getElementById('metric-spent');
+      const metricRemaining = document.getElementById('metric-remaining');
+      const barSpent = document.getElementById('bar-spent');
+      const barRemaining = document.getElementById('bar-remaining');
+
+      if (alloc && spent && delta && badge) {
+        spent.textContent = '$5,750';
+        spent.classList.remove('text-error');
+        spent.classList.add('text-primary');
+
+        delta.textContent = '+$750 safe';
+        delta.classList.remove('text-error');
+        delta.classList.add('text-secondary');
+
+        badge.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold uppercase tracking-wider';
+        badge.innerHTML = '<span class="w-2 h-2 rounded-full bg-secondary"></span> In-Season Rebalanced';
+
+        metricSpent.textContent = '$33,400';
+        metricRemaining.textContent = '$7,200';
+
+        barSpent.style.width = '66.8%';
+        barRemaining.style.width = '14.4%';
+
+        const applyBtn = document.getElementById('apply-btn');
+        if (applyBtn) {
+          applyBtn.textContent = 'Optimized -$1,450';
+          applyBtn.disabled = true;
+          applyBtn.classList.add('opacity-50');
+        }
+      }
+    }
+
+    function dismissAlert(btn) {
+      const container = btn.closest('.p-space-lg');
+      if (container) {
+        container.style.opacity = '0';
+        container.style.transform = 'translateY(-8px)';
+        container.style.transition = 'all 0.3s ease';
+        setTimeout(() => container.remove(), 300);
+      }
+    }
+
+    function updateHospitalityRatio(val) {
+      const label = document.getElementById('ratio-val');
+      if (label) {
+        label.textContent = val + '% Catering & Wine';
+      }
+    }
+
+    function resetAllocations() {
+      const label = document.getElementById('ratio-val');
+      if (label) label.textContent = '64% Catering & Wine';
+      alert('Allocations aligned to Haute Concierge Gold Benchmark.');
+    }
+
+    function runAiOptimization() {
+      alert('AI Treasury Agent activated: Re-benchmarked 18 line items against live French Riviera vendor rate indices. Applied optimal batch payment schedule.');
+    }
+
+    function triggerSimulationModal() {
+      const modal = document.getElementById('simulation-modal');
+      if (modal) modal.classList.remove('hidden');
+    }
+
+    function closeSimulationModal() {
+      const modal = document.getElementById('simulation-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function updateGuestSimulation(val) {
+      const countLabel = document.getElementById('guest-count-val');
+      const projected = document.getElementById('sim-projected-cost');
+      const buffer = document.getElementById('sim-buffer-status');
+
+      const delta = (parseInt(val, 10) - 70) * 160;
+      const total = 50000 + delta;
+      const remaining = 5750 - delta;
+
+      if (countLabel) countLabel.textContent = val + ' Guests';
+      if (projected) projected.textContent = '$' + total.toLocaleString() + ' Projected';
+      if (buffer) {
+        if (remaining >= 0) {
+          buffer.textContent = 'Buffer: Safe (+$' + remaining.toLocaleString() + ')';
+          buffer.className = 'font-label-md text-label-md text-secondary';
+        } else {
+          buffer.textContent = 'Buffer: Deficit (-$' + Math.abs(remaining).toLocaleString() + ')';
+          buffer.className = 'font-label-md text-label-md text-error';
+        }
+      }
+    }
+
+    function applySimulation() {
+      closeSimulationModal();
+      alert('Guest fluctuation scenario committed to draft ledger version B.');
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="w-full px-gutter-desktop mx-auto pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-2xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-secondary-fixed"><span class="material-symbols-outlined text-[18px]">wine_bar</span></div><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Soirée AI</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">An elevated generative intelligence suite for discerning celebrants, sommeliers, and private gala hosts crafting memories with quiet luxury.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">verified</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Haute Concierge Verified</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Curated Events</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="weddings" href="#">Weddings</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="galas" href="#">Galas</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="birthdays" href="#">Birthdays</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-events" href="#">Community Events</a></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Intelligence</span><div class="flex flex-col gap-space-xs"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="vendor-directory" href="#">Vendor Directory</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-concierge" href="#">AI Concierge</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="sommelier-cellar" href="#">Cellar &amp; Pairings</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="seating-atelier" href="#">Seating Atelier</a></div></div><div class="lg:col-span-4 flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Join the Inner Circle</span><p class="font-body-sm text-body-sm text-on-surface-variant">Receive private cellar vintage releases, salon invitations, and bespoke event styling monographs.</p><form class="flex flex-col sm:flex-row gap-space-xs w-full" onsubmit="return false;"><input class="flex-1 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none ring-1 ring-outline-variant focus:ring-secondary transition-all" placeholder="Enter your correspondence email" type="email"/><button class="px-space-md py-space-xs rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all shrink-0" type="submit">Subscribe</button></form></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md bg-surface-container-high/40 px-space-md py-space-sm rounded-xl"><div class="flex items-center gap-space-md flex-wrap"><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge-contact" href="#">Private Office</a></div><p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">© 2025 Soirée AI Inc. Handcrafted for discerning hosts.</p></div></div></footer></body></html>
